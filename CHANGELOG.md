@@ -2,7 +2,7 @@
 
 ## 0.3.5
 
-- Update `doo` to version 0.1.8
+- Update `doo` to version 0.1.9
 
 ## 0.3.4
 
