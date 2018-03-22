@@ -14,7 +14,7 @@
 (bootlaces! +version+)
 
 (task-options!
- pom  {:project     'crisptrutski/boot-cljs-test
+ pom  {:project     'org.clojars.miikka/boot-cljs-test
        :version     +version+
        :description "Boot task to run ClojureScript tests."
        :url         "https://github.com/crisptrutski/boot-cljs-test"
