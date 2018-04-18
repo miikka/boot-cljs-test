@@ -202,7 +202,7 @@
                     (when-not @doo-installed?
                       (reset! doo-installed? true)
                       ((u/r doo.core/install!) [js-env] cljs-opts doo-opts)
-                      (Thread/sleep 1000)))]
+                      (Thread/sleep 10000)))]
             (if karma?
               (let [proc ((u/r doo.core/karma-run!) doo-opts)]
                 (.waitFor proc)
